@@ -35,7 +35,7 @@ public class RoomNodeGraphEditor : EditorWindow
     /// <summary>
     /// Draw Editor Gui
     /// </summary>
-    private void OnGui()
+    private void OnGUI()
     {
         GUILayout.BeginArea(new Rect(new Vector2(100f, 100f), new Vector2(nodeWidth, nodeHeight)), roomNodeStyle);
         EditorGUILayout.LabelField("node 1");
