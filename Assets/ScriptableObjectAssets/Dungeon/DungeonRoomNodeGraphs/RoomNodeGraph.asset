@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1884747151638916761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281645f87e516814d8e2c28844af0677, type: 3}
+  m_Name: RoomNode
+  m_EditorClassIdentifier: 
+  id: 69275c6d-c380-4357-8473-96ec8382e92c
+  parentRoomNodeIDList: []
+  childRoomNodeIDList: []
+  roomNodeGraph: {fileID: 11400000}
+  roomNodeType: {fileID: 11400000, guid: b40ff490322e4f34e93b93e6dcd72e35, type: 2}
+  roomNodeTypeList: {fileID: 11400000, guid: 1d6b07cf402fceb4784931b0279e6980, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 438
+    y: 131
+    width: 160
+    height: 75
+--- !u!114 &-131685223845502980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281645f87e516814d8e2c28844af0677, type: 3}
+  m_Name: RoomNode
+  m_EditorClassIdentifier: 
+  id: ea1bd8a0-907a-4191-b643-24199b8d58c2
+  parentRoomNodeIDList: []
+  childRoomNodeIDList: []
+  roomNodeGraph: {fileID: 11400000}
+  roomNodeType: {fileID: 11400000, guid: 0f00258692308964096a92d2e10e92b8, type: 2}
+  roomNodeTypeList: {fileID: 11400000, guid: 1d6b07cf402fceb4784931b0279e6980, type: 2}
+  rect:
+    serializedVersion: 2
+    x: 291
+    y: 148
+    width: 160
+    height: 75
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4d203ddda59564c983408c8de0a17b, type: 3}
+  m_Name: RoomNodeGraph
+  m_EditorClassIdentifier: 
+  roomNodeTypeList: {fileID: 0}
+  roomNodeList:
+  - {fileID: -131685223845502980}
+  - {fileID: -1884747151638916761}
